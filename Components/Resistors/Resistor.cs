@@ -3,10 +3,15 @@ using SchematicEditor.Exceptions;
 
 namespace SchematicEditor.Components.Resistors
 {
-    class Resistor
+    class Resistor : IComponent
     {
         protected double Resistance;
 
+
+        public void Sample()
+        {
+            throw new NotImplementedException();
+        }
 
         public Resistor(double GivenResistance)
         {
